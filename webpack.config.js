@@ -10,6 +10,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "Form Validation Practice",
+      template: path.resolve(__dirname, "src", "index.html"), // path to your index.html
     }),
   ],
   output: {
